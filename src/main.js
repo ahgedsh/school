@@ -6,6 +6,10 @@ import 'element-ui/lib/theme-chalk/index.css';
 import A from './components/A.vue';
 import D from './components/D.vue';
 import C from './components/C.vue';
+import E  from './components/E.vue';
+import G   from './page/G.vue';
+
+
 
 Vue.config.productionTip = false
 Vue.use(ElementUI);
@@ -14,9 +18,12 @@ Vue.use(Router);
 
 var routes =[
  
-  {path:'/a',component:A},
+  {path:'/',component:A},
   {path:'/d',component:D},
   {path:'/c',component:C},
+  {path:'/e',component:E},
+  {path:'/g',component:G},
+ 
   
 ]
 new Vue({
